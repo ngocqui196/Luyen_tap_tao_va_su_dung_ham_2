@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5:</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt("Nhập sô a:"));
+    let b = parseInt(prompt("Nhập sô b:"));
+    let c = parseInt(prompt("Nhập sô c:"));
+
+    function integer() {
+    if (a <= b && a <= c) {
+        return a;
+    }else if (b< c) {
+        return b;
+    }else {
+        return c
+    }
+    }
+    let result = integer(a, b, c);
+    document.write("Số min là:" + result)
+
+</script>
+</body>
+</html>
