@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1: Tính giai thừa của một số bất kỳ</title>
+</head>
+<body>
+<input id="tep" type="number">
+<button onclick="fachep()">Enter</button>
+<div id="demo"></div>
+<script>
+    function fachep() {
+        let a = Number(document.getElementById("tep").value);
+        let total = 1;
+        for (i = 1;i <= a; i++) {
+            total = total*i;
+        }
+        console.log(total);
+        document.getElementById("demo").innerHTML = "Kết quả:" + total;
+    }
+</script>
+</body>
+</html>

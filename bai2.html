@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2: Cho bán kính bất kỳ. Tính chu vi và diện tích hình tròn</title>
+</head>
+<body>
+<input id="length" type="number">
+<button onclick="circle()">Enter</button>
+<div id="display"></div>
+<div id="show"></div>
+
+<script>
+    function circle() {
+    let r = Number(document.getElementById("length").value);
+    result = Math.PI * r *r;
+    sum = 2 * r * Math.PI;
+    document.getElementById("display").innerHTML = "Diện tích hình tròn:" + result;
+    document.getElementById("show").innerHTML = "Chu vi hình tròn: " + sum;
+    }
+</script>
+</body>
+</html>
