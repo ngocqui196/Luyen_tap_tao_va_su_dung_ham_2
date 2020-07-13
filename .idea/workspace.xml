@@ -20,12 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abef4bfd-56f0-4a63-baae-d26eabda08c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai9.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai6.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai7.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai8.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai9.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai9.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +74,9 @@
       <updated>1587019891830</updated>
       <workItem from="1587019894329" duration="1000" />
       <workItem from="1587019908306" duration="13427000" />
-      <workItem from="1587040474049" duration="9994000" />
+      <workItem from="1587040474049" duration="10444000" />
+      <workItem from="1587265771975" duration="31000" />
+      <workItem from="1594656638315" duration="3951000" />
     </task>
     <servers />
   </component>
@@ -92,11 +93,24 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1587265793136">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587265793136" />
+    <state x="540" y="263" key="IDE.errors.dialog" timestamp="1594657696278">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="263" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594657696278" />
     <state x="1165" y="222" key="RollbackChangesDialog" timestamp="1587047053982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1165" y="222" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587047053982" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1594660025700">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594660025700" />
   </component>
 </project>

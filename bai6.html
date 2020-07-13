@@ -6,13 +6,15 @@
 </head>
 <body>
 <script>
-    let a = parseInt(prompt("Xin mời nhập số:"));
+    let a = parseFloat(prompt("Xin mời nhập số:"));
     function check(a) {
-    if (a>=0) {
-        return true;
-    } else {
-        return false
-    }
+        if (a % 1 === 0) {
+            if (a>=0) {
+                return true;
+            }
+        }else {
+            return false
+        }
     }
     result = check(a);
     document.write(result)

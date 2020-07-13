@@ -6,27 +6,26 @@
 </head>
 <body>
 <script>
-    arr = [];
-    for (i = 0; i < 10; i++) {
-        arr[i] = prompt('Nhập ký tự:');
-    }
-    let count = 0;
-    let kytu = prompt('Nhập vào ký tự tìm kiếm:');
-    result = test();
-    console.log(result);
-    function test() {
-        if (arr.indexOf(kytu) == -1) {
-            return -1;
-        } else {
-            for (i = 0; i < 10; i++) {
-                if (kytu == arr[i]) {
-                    count++;
-                }
+    let kytu1 = prompt('Nhập vào một chuỗi:');
+    let kytu2 = prompt('Nhập vào ký tự kiểm tra');
+
+    function checkElementArray(a,b) {
+        let c = [];
+        for (let i = 0; i < a.length; i++) {
+            if (b === a[i]){
+                c.push(a[i]);
             }
-            return count;
+
         }
+        if (c[0] === b) {
+            return c.length;
+        }else {
+            return "-1";
+        }
+
     }
-    alert(count)
+    let dem = checkElementArray(kytu1,kytu2);
+    console.log(dem)
 </script>
 </body>
 </html>

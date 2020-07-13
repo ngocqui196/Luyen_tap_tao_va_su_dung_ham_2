@@ -7,11 +7,19 @@
 <body>
 <script>
     let a = [7, 3, 4, 8, 9, 5];
-    let b = [];
-    for (let i = a.length; i >=0; i--) {
-        b.push(a[i])
+    let f = [4,5,8,9,1,3,4,8,7,65]
+    function chuyenArr(x) {
+        let b = new Array();
+        for (let i = x.length -1; i >= 0 ; i--) {
+            b.push(x[i]);
+        }
+        return b;
     }
-    document.write("Các phần tử sẽ là" + b)
+    let c = chuyenArr(a);
+    let ff = chuyenArr(f);
+    document.write("Các phần tử sẽ là" + c);
+    document.write("Các phần tử sẽ là" + ff);
+
 </script>
 </body>
 </html>
